@@ -1,0 +1,35 @@
+{
+  "workbench.colorTheme": "Nova",
+  "editor.fontFamily": "Input Mono Condensed",
+  "editor.fontSize": 13,
+  "editor.lineHeight": 0,
+  "editor.letterSpacing": 0.5,
+  // this isn't really underline-thin but we hack it to be a thicker cursor
+  "editor.cursorStyle": "underline-thin",
+  "editor.cursorBlinking": "solid",
+  "editor.renderWhitespace": "none",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.formatOnPaste": true,
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.snippetSuggestions": "top",
+  "editor.minimap.enabled": false,
+  // Very important: Install this plugin: https://github.com/be5invis/vscode-custom-css
+  // you'll need to change this to an absolute path on your computer
+  "vscode_custom_css.imports": [
+    "file:///Users/sasa/.vscodestyles.css"
+  ],
+  "files.trimTrailingWhitespace": true,
+  "prettier.eslintIntegration": true,
+  "workbench.startupEditor": "newUntitledFile",
+  "extensions.ignoreRecommendations": true,
+  "window.zoomLevel": 0,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "workbench.sideBar.location": "left",
+  "workbench.fontAliasing": "antialiased",
+  "clock.dateFormat": "ddd mmm dd yyyy HH:MM",
+  "workbench.activityBar.visible": true,
+  "explorer.confirmDelete": false
+}

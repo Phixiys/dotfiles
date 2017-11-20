@@ -1,0 +1,75 @@
+"*":
+  "atom-ternjs":
+    snippetsFirst: true
+    useSnippets: true
+  "autocomplete-js-import":
+    fuzzy: {}
+    removeExtensions: [
+      ".js"
+      ".jsx"
+    ]
+  core:
+    customFileTypes:
+      source: [
+        "[object Object]"
+      ]
+      "source.js": [
+        "jsx"
+      ]
+      "source.js.jsx": [
+        "jsx"
+      ]
+      text: [
+        "[object Object]"
+      ]
+    disabledPackages: [
+      "language-gfm"
+      "atom-ternjs"
+    ]
+    telemetryConsent: "limited"
+    themes: [
+      "one-dark-ui"
+      "oceanic-next"
+    ]
+    titleBar: "hidden"
+  docblockr:
+    align_tags: "no"
+    auto_add_method_tag: false
+    lower_case_primitives: true
+    short_primitives: true
+    spacer_between_sections: "after_description"
+  editor:
+    fontFamily: "Hack"
+    invisibles: {}
+    scrollPastEnd: true
+    showIndentGuide: true
+    tabType: "soft"
+  emmet: {}
+  "exception-reporting":
+    userId: "5e212ffb-47e2-4301-bd89-1ab60ed07f23"
+  linter:
+    lintOnChange: false
+  "linter-eslint": {}
+  "linter-sass-lint":
+    noConfigDisable: true
+    resolvePathsRelativeToConfig: true
+  "linter-ui-default":
+    panelHeight: 69
+    showPanel: true
+  minimap:
+    plugins:
+      "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
+      pigments: true
+      pigmentsDecorationsZIndex: 0
+  "prettier-atom":
+    prettierOptions:
+      semi: false
+      singleQuote: true
+      trailingComma: "all"
+    "tree-view":
+      hideIgnoredNames: true
+    useEslint: true
+  welcome:
+    showOnStartup: false
+  whitespace: {}

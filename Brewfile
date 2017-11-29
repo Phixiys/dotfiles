@@ -9,6 +9,7 @@ brew 'git-flow'
 brew 'node'
 brew 'yarn', args: ['ignore-dependencies']
 brew 'z'
+brew 'heroku/brew/heroku'
 
 cask 'alfred'
 cask 'atom'

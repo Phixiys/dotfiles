@@ -1,35 +1,82 @@
 {
   "workbench.colorTheme": "Nova",
-  "editor.fontFamily": "Input Mono Condensed",
+  "editor.fontFamily": "Consolas",
   "editor.fontSize": 13,
   "editor.lineHeight": 0,
-  "editor.letterSpacing": 0.5,
+  "editor.letterSpacing": 0,
+  "editor.fontWeight": "400",
+  "workbench.editor.tabSizing": "shrink",
+  "html.format.enable": true,
+  "html.format.preserveNewLines": true,
   // this isn't really underline-thin but we hack it to be a thicker cursor
-  "editor.cursorStyle": "underline-thin",
+  "editor.cursorStyle": "line",
   "editor.cursorBlinking": "solid",
+  "editor.wordWrap": "on",
   "editor.renderWhitespace": "none",
   "editor.multiCursorModifier": "ctrlCmd",
-  "editor.formatOnPaste": true,
+  "editor.colorDecorators": false,
   "editor.tabSize": 2,
   "editor.insertSpaces": true,
   "editor.snippetSuggestions": "top",
   "editor.minimap.enabled": false,
   // Very important: Install this plugin: https://github.com/be5invis/vscode-custom-css
   // you'll need to change this to an absolute path on your computer
-  "vscode_custom_css.imports": [
-    "file:///Users/sasa/.vscodestyles.css"
-  ],
+  "vscode_custom_css.imports": ["file:///Users/sasa/.vscode-styles.css"],
   "files.trimTrailingWhitespace": true,
-  "prettier.eslintIntegration": true,
   "workbench.startupEditor": "newUntitledFile",
-  "extensions.ignoreRecommendations": true,
+  "workbench.sideBar.location": "left",
+  "editor.rulers": [80, 100, 120],
+  "editor.minimap.showSlider": "always",
+  "extensions.ignoreRecommendations": false,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/.next": true
+  },
   "window.zoomLevel": 0,
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
-  "workbench.sideBar.location": "left",
+  "workbench.editor.tabCloseButton": "off",
+  // Set the default
+  "editor.formatOnSave": true,
+  // Enable per-language
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
+  // this lets you quick open multiple items in a row and now have the previous ones closed on you
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
+  "sublimeTextKeymap.promptV3Features": true,
   "workbench.fontAliasing": "antialiased",
-  "clock.dateFormat": "ddd mmm dd yyyy HH:MM",
+  "clock.dateFormat": "dddd mmm dd yyyy HH:MM",
+  "explorer.confirmDelete": false,
   "workbench.activityBar.visible": true,
-  "explorer.confirmDelete": false
+  "explorer.confirmDragAndDrop": false,
+  "workbench.iconTheme": "Monokai Pro (Filter Octagon) Icons",
+  "workbench.statusBar.visible": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.port": 3000,
+  "eslint.autoFixOnSave": true,
+  "eslint.alwaysShowStatus": true,
+  "materialTheme.cache.workbench.settings": {
+    "themeColours": "Default",
+    "accent": "Cyan",
+    "accentPrevious": "Indigo"
+  },
+  "workbench.colorCustomizations": {
+    "activityBarBadge.background": "#00BCD4",
+    "list.activeSelectionForeground": "#00BCD4",
+    "list.inactiveSelectionForeground": "#00BCD4",
+    "list.highlightForeground": "#00BCD4",
+    "scrollbarSlider.activeBackground": "#00BCD450",
+    "editorSuggestWidget.highlightForeground": "#00BCD4",
+    "textLink.foreground": "#00BCD4",
+    "progressBar.background": "#00BCD4",
+    "pickerGroup.foreground": "#00BCD4",
+    "tab.activeBorder": "#00BCD4"
+  }
 }

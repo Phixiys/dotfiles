@@ -1,4 +1,11 @@
 "*":
+  "atom-material-ui":
+    colors:
+      abaseColor: "#0ca7ff"
+    tabs:
+      compactTabs: true
+    ui:
+      panelContrast: true
   "atom-ternjs":
     snippetsFirst: true
     useSnippets: true
@@ -25,12 +32,12 @@
     disabledPackages: [
       "language-gfm"
       "atom-ternjs"
+      "prettier-atom"
     ]
-    projectHome: "/Users/sasa/projects"
     telemetryConsent: "limited"
     themes: [
       "one-dark-ui"
-      "oceanic-next"
+      "material-palenight-syntax"
     ]
     titleBar: "hidden"
   docblockr:
@@ -41,9 +48,8 @@
     spacer_between_sections: "after_description"
   editor:
     fontFamily: "Consolas"
-    fontSize: 16
+    fontSize: 13
     invisibles: {}
-    lineHeight: 1.6
     scrollPastEnd: true
     showIndentGuide: true
     tabType: "soft"
@@ -57,7 +63,7 @@
     noConfigDisable: true
     resolvePathsRelativeToConfig: true
   "linter-ui-default":
-    panelHeight: 161
+    panelHeight: 69
     showPanel: true
   minimap:
     plugins:
@@ -66,9 +72,8 @@
       pigments: true
       pigmentsDecorationsZIndex: 0
   "prettier-atom":
-    formatOnSaveOptions:
-      enabled: true
     prettierOptions:
+      semi: false
       singleQuote: true
       trailingComma: "all"
     "tree-view":
@@ -77,3 +82,16 @@
   welcome:
     showOnStartup: false
   whitespace: {}
+"atom-material-ui":
+  colors:
+    abaseColor: "#7e57c2"
+    paintCursor: true
+    predefinedColor: "Purple"
+  tabs:
+    compactTabs: true
+    noTabMinWidth: true
+  treeView:
+    blendTabs: true
+    compactList: false
+  ui:
+    panelShadows: true

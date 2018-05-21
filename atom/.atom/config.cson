@@ -1,4 +1,11 @@
 "*":
+  "atom-material-ui":
+    colors:
+      abaseColor: "#0ca7ff"
+    tabs:
+      compactTabs: true
+    ui:
+      panelContrast: true
   "atom-ternjs":
     snippetsFirst: true
     useSnippets: true
@@ -25,11 +32,12 @@
     disabledPackages: [
       "language-gfm"
       "atom-ternjs"
+      "prettier-atom"
     ]
     telemetryConsent: "limited"
     themes: [
       "one-dark-ui"
-      "oceanic-next"
+      "material-palenight-syntax"
     ]
     titleBar: "hidden"
   docblockr:
@@ -39,7 +47,8 @@
     short_primitives: true
     spacer_between_sections: "after_description"
   editor:
-    fontFamily: "Hack"
+    fontFamily: "Consolas"
+    fontSize: 13
     invisibles: {}
     scrollPastEnd: true
     showIndentGuide: true
@@ -73,3 +82,16 @@
   welcome:
     showOnStartup: false
   whitespace: {}
+"atom-material-ui":
+  colors:
+    abaseColor: "#7e57c2"
+    paintCursor: true
+    predefinedColor: "Purple"
+  tabs:
+    compactTabs: true
+    noTabMinWidth: true
+  treeView:
+    blendTabs: true
+    compactList: false
+  ui:
+    panelShadows: true

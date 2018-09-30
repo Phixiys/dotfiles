@@ -1,15 +1,28 @@
 {
+<<<<<<< HEAD
   "workbench.colorTheme": "Nova",
   "editor.fontFamily": "Dank Mono",
   "editor.fontSize": 14,
   "editor.lineHeight": 0,
   "editor.letterSpacing": 0.5,
+=======
+  "workbench.colorTheme": "Halcyon",
+  "editor.fontFamily": "Operator Mono",
+  "editor.fontSize": 18,
+  "editor.lineHeight": 24,
+  // "editor.letterSpacing": 1.5,
+  "editor.fontWeight": "300",
+  // "workbench.editor.tabSizing": "shrink",
+  "html.format.enable": true,
+  "html.format.preserveNewLines": true,
+>>>>>>> 271d405ebd2f1da094b029a418e0eba1dd97ae95
   // this isn't really underline-thin but we hack it to be a thicker cursor
-  "editor.cursorStyle": "underline-thin",
+  "editor.cursorStyle": "line",
   "editor.cursorBlinking": "solid",
+  "editor.wordWrap": "on",
   "editor.renderWhitespace": "none",
   "editor.multiCursorModifier": "ctrlCmd",
-  "editor.formatOnPaste": true,
+  "editor.colorDecorators": false,
   "editor.tabSize": 2,
   "editor.insertSpaces": true,
   "editor.snippetSuggestions": "top",
@@ -18,16 +31,59 @@
   // you'll need to change this to an absolute path on your computer
   "vscode_custom_css.imports": ["file:///Users/sasa/.vscodestyles.css"],
   "files.trimTrailingWhitespace": true,
-  "prettier.eslintIntegration": true,
   "workbench.startupEditor": "newUntitledFile",
-  "extensions.ignoreRecommendations": true,
+  "workbench.sideBar.location": "left",
+  "editor.minimap.showSlider": "always",
+  "extensions.ignoreRecommendations": false,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/.next": true
+  },
   "window.zoomLevel": 0,
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
-  "workbench.sideBar.location": "left",
-  "workbench.fontAliasing": "antialiased",
-  "clock.dateFormat": "ddd mmm dd yyyy HH:MM",
+  "workbench.editor.tabCloseButton": "off",
+  // Set the default
+  "editor.formatOnSave": true,
+  // Enable per-language
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
+  // this lets you quick open multiple items in a row and now have the previous ones closed on you
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
+  // "workbench.fontAliasing": "antialiased",
+  "clock.dateFormat": "dddd mmm dd yyyy HH:MM",
+  "explorer.confirmDelete": false,
   "workbench.activityBar.visible": true,
+<<<<<<< HEAD
   "explorer.confirmDelete": false
+=======
+  "explorer.confirmDragAndDrop": false,
+  "workbench.iconTheme": "vscode-great-icons",
+  "workbench.statusBar.visible": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.port": 3000,
+  "eslint.autoFixOnSave": true,
+  "eslint.alwaysShowStatus": true,
+  "liveServer.settings.donotVerifyTags": true,
+  "gitlens.advanced.messages": {
+    "suppressCommitHasNoPreviousCommitWarning": false,
+    "suppressCommitNotFoundWarning": false,
+    "suppressFileNotUnderSourceControlWarning": false,
+    "suppressGitVersionWarning": false,
+    "suppressLineUncommittedWarning": false,
+    "suppressNoRepositoryWarning": false,
+    "suppressResultsExplorerNotice": false,
+    "suppressShowKeyBindingsNotice": true
+  },
+  "editor.scrollBeyondLastLine": true,
+  "editor.formatOnPaste": true,
+  "gitlens.historyExplorer.enabled": true
+>>>>>>> 271d405ebd2f1da094b029a418e0eba1dd97ae95
 }

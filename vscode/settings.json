@@ -1,23 +1,10 @@
 {
-<<<<<<< HEAD
-  "workbench.colorTheme": "Nova",
   "editor.fontFamily": "Dank Mono",
   "editor.fontSize": 14,
   "editor.lineHeight": 0,
-  "editor.letterSpacing": 0.5,
-=======
-  "workbench.colorTheme": "Halcyon",
-  "editor.fontFamily": "Operator Mono",
-  "editor.fontSize": 18,
-  "editor.lineHeight": 24,
-  // "editor.letterSpacing": 1.5,
-  "editor.fontWeight": "300",
   // "workbench.editor.tabSizing": "shrink",
   "html.format.enable": true,
   "html.format.preserveNewLines": true,
->>>>>>> 271d405ebd2f1da094b029a418e0eba1dd97ae95
-  // this isn't really underline-thin but we hack it to be a thicker cursor
-  "editor.cursorStyle": "line",
   "editor.cursorBlinking": "solid",
   "editor.wordWrap": "on",
   "editor.renderWhitespace": "none",
@@ -57,15 +44,12 @@
   // this lets you quick open multiple items in a row and now have the previous ones closed on you
   "workbench.editor.enablePreviewFromQuickOpen": false,
   "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
-  // "workbench.fontAliasing": "antialiased",
+  "workbench.fontAliasing": "antialiased",
   "clock.dateFormat": "dddd mmm dd yyyy HH:MM",
   "explorer.confirmDelete": false,
-  "workbench.activityBar.visible": true,
-<<<<<<< HEAD
-  "explorer.confirmDelete": false
-=======
+  "workbench.activityBar.visible": false,
   "explorer.confirmDragAndDrop": false,
-  "workbench.iconTheme": "vscode-great-icons",
+  "workbench.iconTheme": "eq-material-theme-icons",
   "workbench.statusBar.visible": true,
   "liveServer.settings.donotShowInfoMsg": true,
   "liveServer.settings.port": 3000,
@@ -84,6 +68,27 @@
   },
   "editor.scrollBeyondLastLine": true,
   "editor.formatOnPaste": true,
-  "gitlens.historyExplorer.enabled": true
->>>>>>> 271d405ebd2f1da094b029a418e0eba1dd97ae95
+  "gitlens.historyExplorer.enabled": true,
+  "materialTheme.fixIconsRunning": false,
+  "workbench.colorTheme": "Material Theme",
+  "workbench.colorCustomizations": {
+    "activityBarBadge.background": "#84FFFF",
+    "list.activeSelectionForeground": "#84FFFF",
+    "list.inactiveSelectionForeground": "#84FFFF",
+    "list.highlightForeground": "#84FFFF",
+    "scrollbarSlider.activeBackground": "#84FFFF50",
+    "editorSuggestWidget.highlightForeground": "#84FFFF",
+    "textLink.foreground": "#84FFFF",
+    "progressBar.background": "#84FFFF",
+    "pickerGroup.foreground": "#84FFFF",
+    "tab.activeBorder": "#84FFFF",
+    "notificationLink.foreground": "#84FFFF",
+    "editorWidget.resizeBorder": "#84FFFF",
+    "editorWidget.border": "#84FFFF",
+    "settings.modifiedItemForeground": "#84FFFF",
+    "panelTitle.activeBorder": "#84FFFF"
+  },
+  "materialTheme.accentPrevious": "Bright Teal",
+  "materialTheme.accent": "Sky",
+  "javascript.updateImportsOnFileMove.enabled": "always"
 }

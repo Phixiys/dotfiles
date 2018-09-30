@@ -1,7 +1,7 @@
 {
   "workbench.colorTheme": "Nova",
-  "editor.fontFamily": "Input Mono Condensed",
-  "editor.fontSize": 13,
+  "editor.fontFamily": "Dank Mono",
+  "editor.fontSize": 14,
   "editor.lineHeight": 0,
   "editor.letterSpacing": 0.5,
   // this isn't really underline-thin but we hack it to be a thicker cursor
@@ -16,9 +16,7 @@
   "editor.minimap.enabled": false,
   // Very important: Install this plugin: https://github.com/be5invis/vscode-custom-css
   // you'll need to change this to an absolute path on your computer
-  "vscode_custom_css.imports": [
-    "file:///Users/sasa/.vscodestyles.css"
-  ],
+  "vscode_custom_css.imports": ["file:///Users/sasa/.vscodestyles.css"],
   "files.trimTrailingWhitespace": true,
   "prettier.eslintIntegration": true,
   "workbench.startupEditor": "newUntitledFile",

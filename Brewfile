@@ -11,7 +11,6 @@ brew 'yarn', args: ['ignore-dependencies']
 brew 'z'
 
 cask 'alfred'
-cask 'atom'
 cask 'visual-studio-code'
 cask 'firefox-developer-edition'
 cask 'google-chrome'
